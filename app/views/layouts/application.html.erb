@@ -8,11 +8,12 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/c32d318e09.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <%= render 'pages/navbar' %>
       <%= yield %>
-    <h1>FOOTER<h1>
+    <%= render 'pages/footer' %>
   </body>
 </html>
