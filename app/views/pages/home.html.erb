@@ -1,9 +1,17 @@
-<%= image_tag "banner.jpeg" %>
+<div class="banner">
+  <%= image_tag "banner.jpeg" %>
+</div>
 
-<h1>Alexandra Lord</h1>
-<h3>I am Alexandra Lord. I have spent 30 years working in private prep and pre-prep schools. For the last 20 years I have specialised in Specific Learning Difficulties and autism. There is so much co-occurrence between the SpLDS and this can cause confusion. Assessments and labelling are not always straightforward but I feel strongly about getting the correct diagnosis so that individuals can understand why they may learn differently and understand that their different traits may have an impact on them. Differentiation is crucial for neurodiverse learners and my passion is to help and encourage children with these challenges and give them the confidence and skills to achieve their potential. I am now working independently offering one to one tuition at school, at the pupil’s home or in my home office. </h3>
-
-<%= image_tag "kids-learning.jpeg", height: 300 %>
+<div class="about-me">
+  <div class="about-me-text">
+    <h1>Alexandra Lord</h1>
+    <h3>I am Alexandra Lord. I have spent 30 years working in private prep and pre-prep schools. </h3>
+    <h3>For the last 20 years I have specialised in Specific Learning Difficulties and autism. There is so much co-occurrence between the SpLDS and this can cause confusion. Assessments and labelling are not always straightforward but I feel strongly about getting the correct diagnosis so that individuals can understand why they may learn differently and understand that their different traits may have an impact on them. Differentiation is crucial for neurodiverse learners and my passion is to help and encourage children with these challenges and give them the confidence and skills to achieve their potential. I am now working independently offering one to one tuition at school, at the pupil’s home or in my home office. </h3>
+  </div> 
+  <div class="about-me-img">
+    <%= image_tag "kids-learning.jpeg" %>
+  </div>
+</div>
 
 <div class="contact-btn"><%= link_to "Contact", contact_path %></div>
 <i class="fa-brands fa-linkedin"></i>
